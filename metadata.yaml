@@ -1,0 +1,6 @@
+---
+homepage: https://dumbdata.co/
+documentation: https://github.com/Jude-Nwachukwu/gtm-microsoft-clarity-utility
+versions:
+  - sha: 7f24361d005f11c9d066658d462bf54a11cfd442
+    changeNotes: Initial release.
