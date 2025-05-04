@@ -6,7 +6,7 @@ This GTM custom variable allows you to dynamically retrieve Microsoft Clarity da
 - ✅ **Clarity Session ID**
 - ✅ **Clarity User ID**
 
-> Developed by **Jude** for [DumbData](https://dumbdata.co/)
+> Developed by **Jude Nwachukwu Onyejekwe** for [DumbData](https://dumbdata.co/)
 
 ---
 
