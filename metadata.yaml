@@ -2,5 +2,10 @@
 homepage: https://dumbdata.co/
 documentation: https://github.com/Jude-Nwachukwu/gtm-microsoft-clarity-utility
 versions:
+# LATEST VERSION
+  - sha: 43885513d005f8bdb83efb096da76111ebbc5815
+    changeNotes: Support clarity cookie values changes.
+
+# INITIAL VERSION
   - sha: 7f24361d005f11c9d066658d462bf54a11cfd442
     changeNotes: Initial release.
