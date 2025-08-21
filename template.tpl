@@ -100,9 +100,17 @@ if (!clskValue || !clckValue) {
   return undefined;
 }
 
-// Extract ID parts (before the pipe)
-clskValue = clskValue.split('|')[0];
-clckValue = clckValue.split('|')[0];
+// Helper: split by ^ first, else by |
+function splitValue(val) {
+  if (val.indexOf('^') !== -1) {
+    return val.split('^')[0];
+  }
+  return val.split('|')[0];
+}
+
+// Extract ID parts using helper
+clskValue = splitValue(clskValue);
+clckValue = splitValue(clckValue);
 
 if (!clskValue || !clckValue) {
   return undefined;
